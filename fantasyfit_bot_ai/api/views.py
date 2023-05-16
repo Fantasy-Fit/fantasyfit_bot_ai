@@ -22,7 +22,7 @@ def Index(request):
 class BotCommentAV(APIView):
     
     def post(self, request):
-        input_prompt = "Adopting the tone of a fitness coach with a sarcastic but forceful and serious tone, write several sentences based on the history of user workouts who are participants in a fitness competition where workouts generate points to provide some encouragement, banter and throw some shame at who's being lazy"
+        input_prompt = "Adopting the tone of a fitness coach with a sarcastic but forceful and serious tone, write several sentences based on the history of user workouts who are participants in a fitness competition where workouts generate points to provide some encouragement, banter and throw some shame at who's being lazy. If there are no workouts, adopt a midly angry tone to encourage participants to start working out." 
         msg_list = request.data.get('prompts', [])
         msg_list.append({"role": "user", "content": input_prompt})
         

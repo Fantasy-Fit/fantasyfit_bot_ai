@@ -1,0 +1,63 @@
+# Django-related
+*.pyc
+*.pyo
+__pycache__/
+*.sqlite3
+
+# Development/IDE files
+.vscode/
+*.swp
+*.swo
+*.bak
+*.pyc
+*~
+.idea/
+
+# Dependency directories
+venv/
+env/
+env-bak/
+
+# Log files
+*.log
+
+# Static files
+staticfiles/
+
+# Media files
+media/
+
+# Environment variables
+.env
+
+# Compiled files
+*.pyc
+*.pyo
+*.whl
+*.pyd
+*.egg-info/
+
+# Coverage reports
+htmlcov/
+
+# Ignore database configuration
+db.sqlite3
+db.sqlite3-journal
+
+# Ignore generated documentation
+docs/_build/
+
+# Ignore cache and temporary files
+*.bak
+*.cache
+*.tmp
+
+# Ignore IDE-specific files
+*.sublime-workspace
+*.suo
+*.ntvs*
+*.njsproj.user
+*.sln.docstates
+Thumbs.db
+*.swp
+.vs/
